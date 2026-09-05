@@ -27,6 +27,9 @@ export default [
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
       ],
+      "@typescript-eslint/explicit-module-boundary-types": "error",
+      semi: ["error", "always"],
+      "comma-dangle": ["error", "always-multiline"],
     },
   },
 
